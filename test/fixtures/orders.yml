@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  customer_id: 1
+  company_id: 1
+  item: MyText
+  dateoforder: 2011-01-10
+  duedate: 2011-01-10
+
+two:
+  customer_id: 1
+  company_id: 1
+  item: MyText
+  dateoforder: 2011-01-10
+  duedate: 2011-01-10
