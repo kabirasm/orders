@@ -1,5 +1,8 @@
 class CompaniesController < ApplicationController
-  # GET /companies
+  
+before_filter :authenticate_user!, :except => [:show, :index]
+
+# GET /companies
   # GET /companies.xml
   def index
     @companies = Company.all

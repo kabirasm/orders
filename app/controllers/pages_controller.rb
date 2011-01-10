@@ -3,4 +3,12 @@ class PagesController < ApplicationController
 	@title = "Home"
   end
 
+  def show
+       @title = "Welcome"
+  end
+
+  def readme
+      @title = "Read Me"
+  end
+
 end
