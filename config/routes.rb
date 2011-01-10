@@ -13,9 +13,9 @@ Crm::Application.routes.draw do
 
   root :to => "pages#home"
 
-#  namespace :user do
-#  root :to => "orders#index"
-#  end
+  namespace :user do
+  root :to => "orders#index"
+  end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
